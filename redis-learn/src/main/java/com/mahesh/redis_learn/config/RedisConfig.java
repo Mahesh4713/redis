@@ -13,7 +13,6 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
 
 @Configuration
 public class RedisConfig {
-
     @Value("${redis.host.url}")
     String host;
 
